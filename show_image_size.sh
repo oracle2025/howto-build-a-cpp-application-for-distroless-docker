@@ -1,2 +1,2 @@
 #!/bin/bash -ex
-docker image inspect geo-targeted-link-redirect --format='{{.Size}}'
+docker image inspect cpp-application-for-distroless-docker --format='{{.Size}}'

@@ -31,6 +31,4 @@ FROM gcr.io/distroless/base-debian10
 COPY --from=builder /usr/local/bin /usr/local/bin
 COPY --from=builder /usr/local/share /usr/local/share
 
-EXPOSE 8080/tcp
-
 ENTRYPOINT ["main"]
